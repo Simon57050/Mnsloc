@@ -186,27 +186,37 @@ button#menu.dropbtn{
 .contenu .image {
     flex: 1;
     margin-right: 20px; /* Marge entre l'image et la carte */
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .contenu .image img {
-    max-width: 100%; /* Pour éviter que l'image ne dépasse de l'écran */
-    height: auto;
+    width:50% ; /* Définir une largeur maximale pour l'image */
+    height: 50%; /* Assurez-vous que la hauteur s'ajuste automatiquement */
+    margin-left:  100px;
+    margin-top: 50px;
+    border-radius: 10%;
 }
 
 .contenu .carte {
     flex: 1;
-    background-color: #f2f2f2;
+    width: 50%;
+    background-color: #0e0e0e;
     padding: 20px;
     border-radius: 5px;
+    margin-right: 100px;
+    color: #FD8F21;
+    text-align: center;
 }
 
 .footer-basic {
-    position: fixed;
-    bottom: 0;
+    position: relative; 
     width: 100%;
     padding: 40px 0;
     background-color: #000;
-    color: #4b4c4d;
+    color: #fff;
+    clear: both; 
+    margin-top: 20px; 
 }
   
   .footer-basic ul {
@@ -257,6 +267,6 @@ button#menu.dropbtn{
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:#000;
+    color:#ffffff;
     margin-bottom:0;
   }
