@@ -1,5 +1,5 @@
 </main>
-<div class="footer">
+<div class="footer-basic">
     <footer>
         <div class="social">
             <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/icons8-facebook-48.png"></a>
