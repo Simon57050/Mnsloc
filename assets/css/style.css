@@ -70,7 +70,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     background-color: #303030;
 }
 
@@ -80,7 +80,8 @@ nav ul {
     padding: 0;
     display: flex;
     flex-grow: 1;
-    justify-content: space-around; /* Assure un espacement équivalent entre les éléments */ 
+    justify-content: space-around;
+    /* Assure un espacement équivalent entre les éléments */
 }
 
 nav ul li {
@@ -127,7 +128,7 @@ nav ul li button[type="submit"]:hover {
     margin-top: 10px;
 }
 
-button#categorie.dropbtn{
+button#categorie.dropbtn {
     width: 5px 150px;
     padding: 5px 100px;
     border-radius: 20px;
@@ -138,7 +139,7 @@ button#categorie.dropbtn{
     margin-left: 5px;
 }
 
-button#menu.dropbtn{
+button#menu.dropbtn {
     padding: 5px 100px;
     border-radius: 20px;
     border: none;
@@ -185,15 +186,18 @@ button#menu.dropbtn{
 
 .contenu .image {
     flex: 1;
-    margin-right: 20px; /* Marge entre l'image et la carte */
+    margin-right: 20px;
+    /* Marge entre l'image et la carte */
     max-width: 50%;
     max-height: 50%;
 }
 
 .contenu .image img {
-    width:50% ; /* Définir une largeur maximale pour l'image */
-    height: 50%; /* Assurez-vous que la hauteur s'ajuste automatiquement */
-    margin-left:  100px;
+    width: 50%;
+    /* Définir une largeur maximale pour l'image */
+    height: 50%;
+    /* Assurez-vous que la hauteur s'ajuste automatiquement */
+    margin-left: 100px;
     margin-top: 50px;
     border-radius: 10%;
 }
@@ -209,48 +213,179 @@ button#menu.dropbtn{
     text-align: center;
 }
 
+.carte-connexion {
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.carte-connexion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carte-connexion form {
+    display: flex;
+    flex-direction: column;
+}
+
+.carte-connexion label {
+    margin-bottom: 5px;
+}
+
+.carte-connexion input[type="email"],
+.carte-connexion input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.carte-connexion input[type="submit"] {
+    padding: 10px;
+    background-color: black;
+    /* Couleur du bouton */
+    color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carte-connexion input[type="submit"]:hover {
+    background-color: #e67e22;
+    /* Couleur du bouton au survol */
+    color: #000
+}
+
+.inscrivez-vous {
+    text-align: center;
+    margin-top: 0;
+    /* Ajuste l'espacement au-dessus du paragraphe */
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.inscrivez-vous a {
+    color: black;
+    /* Change la couleur du lien */
+    text-decoration: none;
+    /* Retire le surlignement du lien */
+    font-weight: bold;
+}
+
+.inscrivez-vous a:hover {
+    color: #d35400;
+    /* Change la couleur du lien au survol */
+    text-decoration: none;
+    /* Assure que le surlignement est également retiré au survol */
+}
+
+.NoAcount {
+    text-align: center;
+}
+
+
+.carte-inscription {
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.carte-inscription h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carte-inscription form {
+    display: flex;
+    flex-direction: column;
+}
+
+.carte-inscription label {
+    margin-bottom: 5px;
+}
+
+.carte-inscription input[type="text"],
+.carte-inscription input[type="email"],
+.carte-inscription input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.carte-inscription input[type="submit"] {
+    padding: 10px;
+    background-color: black;
+    /* Couleur du bouton */
+    color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carte-inscription input[type="submit"]:hover {
+    background-color: #e67e22;
+    /* Couleur du bouton au survol */
+    color: #000;
+}
+
+#admin_code_div {
+    display: none;
+}
+
 .footer-basic {
-    position: relative; 
+    position: relative;
     width: 100%;
     padding: 40px 0;
     background-color: #000;
     color: #fff;
-    clear: both; 
-    margin-top: 20px; 
+    clear: both;
+    margin-top: 20px;
 }
-  
-  .footer-basic ul {
-    padding:0;
-    list-style:none;
-    text-align:center;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:0;
-  }
-  
-  .footer-basic li {
-    padding:0 10px;
-  }
-  
-  .footer-basic ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-  }
-  
-  .footer-basic ul a:hover {
-    opacity:1;
-  }
-  
-  .footer-basic .social {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  
-  .footer-basic .social > a img {
-    width: 40px; /* Définissez la largeur souhaitée */
-    height: 40px; /* Définissez la hauteur souhaitée */
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+.footer-basic .social>a img {
+    width: 40px;
+    /* Définissez la largeur souhaitée */
+    height: 40px;
+    /* Définissez la hauteur souhaitée */
     object-fit: cover;
     border-radius: 50%;
     border: 1px solid #ccc;
@@ -258,15 +393,54 @@ button#menu.dropbtn{
     opacity: 0.75;
 }
 
-  
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
-  
-  .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    color:#ffffff;
-    margin-bottom:0;
-  }
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.formulaire-connexion {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #303030;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire-connexion label {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulaire-connexion input[type="email"],
+.formulaire-connexion input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulaire-connexion button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #FD8F21;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulaire-connexion button[type="submit"]:hover {
+    background-color: #e67e22;
+}

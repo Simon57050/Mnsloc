@@ -1,5 +1,5 @@
 
-    <div class="contenu">
+<div class="contenu">
         <div class="image">
             <img src="../assets/img/Default_Create_a_visual_representation_of_a_work_scene_an_imag_3.jpg" alt="image page d'accueil">
         </div>
